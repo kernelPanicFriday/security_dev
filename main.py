@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/shit")
+@app.get("/test")
 async def root():
     print('sending')
     return "hello world"
