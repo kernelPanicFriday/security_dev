@@ -1,7 +1,11 @@
 <template>
-  <div class="hello">
-    <h2>ayoooo</h2>
-    <h1>{{ msg }}</h1>
+   <div class="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
+     <p class="text-3xl text-gray-700 font-bold mb-5">
+       Welcome!
+     </p>
+     <p class="text-gray-500 text-lg">
+       My name is Ty Brown and I'm a Full Stack Developer for the Intercontinel Exchange's Cybersecurity department.
+     </p>
   </div>
 </template>
 
@@ -24,19 +28,6 @@ onMounted(() => update());
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style>
+
 </style>
